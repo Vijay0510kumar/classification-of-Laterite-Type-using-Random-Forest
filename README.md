@@ -1,0 +1,1 @@
+# classification-of-Laterite-Type-using-Random-Forest
