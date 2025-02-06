@@ -1,0 +1,10 @@
+requirements = """
+streamlit
+pandas
+numpy
+scikit-learn
+"""
+with open('requirements.txt', 'w') as f:
+    f.write(requirements)
+
+print("requirements.txt file written.")
