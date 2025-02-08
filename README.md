@@ -1,10 +1,10 @@
 # classification-of-Laterite-Type-using-Random-Forest based on Geotechnical properties
 
-Overview
+## Overview
 
 This project aims to build a Random Forest Classifier to predict the type of laterite based on various geotechnical properties. Accurate classification of laterite types is crucial in mining, construction, and geotechnical applications.
 
-Dataset
+## Dataset
 
 the following geotechnical properties as input features:
 
@@ -26,7 +26,7 @@ RQD: Rock Quality Designation
 
 The target variable is the Laterite Type, which classifies laterite into different categories.
 
-Objective
+## Objective
 
 Develop a Random Forest Classifier to classify laterite type.
 
@@ -58,7 +58,7 @@ Implement Random Forest Classifier
 
 Hyperparameter tuning (Grid Search / Random Search)
 
-Evaluation
+## Evaluation
 
 
 Confusion matrix
