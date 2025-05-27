@@ -19,7 +19,12 @@ Di	Degree of Saturation,
 Mc	Moisture Content,
 RQD	Rock Quality Designation,
 
-Target Variable: Laterite Type (Categorical — represents the class/type of laterite)
+Target Variable: Laterite Type (Categorical — represents the class/type of laterite):
+Laterite Types-
+1.ILT
+2.LLT
+3.LTC
+4.LC
 
 ### Objective
 Build a high-performing Random Forest model to classify Laterite Type.
