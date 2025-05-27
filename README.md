@@ -9,6 +9,7 @@ The model has been trained and tested to achieve over 95% accuracy, with strong 
 The dataset contains 500 real-world samples with the following geotechnical features:
 
 Feature	Description
+
 Ds	Dry Density
 UCS	Uniaxial Compressive Strength
 IS50	Point Load Index at 50 mm diameter
