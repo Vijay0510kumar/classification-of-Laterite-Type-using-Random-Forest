@@ -1,67 +1,53 @@
-# classification-of-Laterite-Type-using-Random-Forest based on Geotechnical properties
+## Classification of Laterite Type using Random Forest
 
-## Overview
+### Overview
+This project focuses on predicting the type of laterite using a Random Forest Classifier based on several geotechnical properties. Accurate classification plays a vital role in mining, geotechnical engineering, and construction industries by helping experts understand rock behavior, site suitability, and excavation risks.
 
-This project aims to build a Random Forest Classifier to predict the type of laterite based on various geotechnical properties. Accurate classification of laterite types is crucial in mining, construction, and geotechnical applications.
+The model has been trained and tested to achieve over 95% accuracy, with strong generalization on unseen data.
 
-## Dataset
+### Dataset
+The dataset contains 500 real-world samples with the following geotechnical features:
 
-the following geotechnical properties as input features:
+Feature	Description
+Ds	Dry Density
+UCS	Uniaxial Compressive Strength
+IS50	Point Load Index at 50 mm diameter
+TS	Tensile Strength
+Pw	Porosity
+Di	Degree of Saturation
+Mc	Moisture Content
+RQD	Rock Quality Designation
 
-Ds: Dry Density
+Target Variable: Laterite Type (Categorical — represents the class/type of laterite)
 
-UCS: Uniaxial Compressive Strength
+### Objective
+Build a high-performing Random Forest model to classify Laterite Type.
 
-IS50: Point Load Index (Strength Index at 50mm diameter)
+Understand the influence of each geotechnical property.
 
-TS: Tensile Strength
+Enable user-friendly prediction interface for practical use in mining or field assessments.
 
-Pw: Porosity
+### Methodology
 
-Di: Degree of Saturation
+1.Data Preprocessing
+Handled missing values, Performed feature scaling and normalization, Categorical encoding of target variable.
 
-Mc: Moisture Content
+2.Exploratory Data Analysis (EDA)
+Distribution plots for each feature, Correlation heatmap to identify relationships, Outlier detection and treatment using IQR/Z-score, Feature importance visualization
 
-RQD: Rock Quality Designation
+3.Model Building
+Implemented a Random Forest Classifier, Applied Grid Search Cross-Validation for hyperparameter tuning,Used K-Fold Cross Validation to ensure robust model performance
 
-The target variable is the Laterite Type, which classifies laterite into different categories.
+4.Evaluation Metrics
+Accuracy: ~95%
+Confusion Matrix
+Precision / Recall / F1 Score
+Feature Importance Plot
 
-## Objective
+5.User Input & Prediction
+The project includes a simple interactive Python script / Jupyter Notebook that takes user inputs for geotechnical parameters and predicts the Laterite Type
 
-Develop a Random Forest Classifier to classify laterite type.
+![image](https://github.com/user-attachments/assets/06a4df89-c9bb-4052-91eb-7624ec94bbe6)
 
-Analyze the impact of geotechnical properties on classification.
-
-Optimize the model for high accuracy (>95%).
-
-Methodology
-
-Data Preprocessing
-
-Handle missing values (if any)
-
-Feature scaling/normalization
-
-Encode categorical target variables (if applicable)
-
-Exploratory Data Analysis (EDA)
-
-Statistical analysis
-
-Correlation matrix
-
-Feature importance analysis
-
-Model Development
-
-Implement Random Forest Classifier
-
-Hyperparameter tuning (Grid Search / Random Search)
-
-## Evaluation
-
-
-Confusion matrix
-
-Feature importance analysis
+![image](https://github.com/user-attachments/assets/a11a9f33-03ac-4e0b-a971-5276909be4fc)
 
