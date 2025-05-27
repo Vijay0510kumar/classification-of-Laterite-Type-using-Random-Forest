@@ -10,14 +10,14 @@ The dataset contains 500 real-world samples with the following geotechnical feat
 
 Feature	Description
 
-Ds	Dry Density
-UCS	Uniaxial Compressive Strength
-IS50	Point Load Index at 50 mm diameter
-TS	Tensile Strength
-Pw	Porosity
-Di	Degree of Saturation
-Mc	Moisture Content
-RQD	Rock Quality Designation
+Ds	Dry Density, 
+UCS	Uniaxial Compressive Strength, 
+IS50	Point Load Index at 50 mm diameter,
+TS	Tensile Strength,
+Pw	Porosity,
+Di	Degree of Saturation,
+Mc	Moisture Content,
+RQD	Rock Quality Designation,
 
 Target Variable: Laterite Type (Categorical — represents the class/type of laterite)
 
